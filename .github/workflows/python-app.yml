@@ -1,10 +1,10 @@
 name: Python application
 
 on:
-
   push:
-    paths:
-    - a
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 
 permissions:
   contents: read
