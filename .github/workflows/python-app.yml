@@ -2,9 +2,8 @@ name: Python application
 
 on:
   push:
-    branches: [ "master/a" ]
-  pull_request:
-    branches: [ "master/a" ]
+    paths:
+      - '**.py'
 
 permissions:
   contents: read

@@ -1,2 +1,2 @@
-print("first")
+print("frst")
 print("ab")
